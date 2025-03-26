@@ -13,17 +13,16 @@ list1 = ['list', 1, 2+3j, True]
 tuple1 = (1.2, 'tuple', 2+3j, None)
 list2 = ['segunda', 'lista', 'de', 'texto']
 
-elements = [list1, tuple1, list2
+elements = [
+    list1, tuple1, list2
             ]
 
-# for elementsIndex in elements:
-#         print(type(elementsIndex))
 
 for elementsIndex in elements:
     while True:
         if type(elementsIndex) is list:
-            print ('Is a list')
+            print (True, 'Is a list')
             break
         else:
-            print ('Not a list')
+            print (False)
             break
