@@ -7,7 +7,7 @@
 # Binary Types: 	bytes, bytearray, memoryview
 # None Type: 	NoneType
 
-element = 'text'
+elementInput = 'test text'
 
 list1 = ['list', 1, 2+3j, True]
 tuple1 = (1.2, 'tuple', 2+3j, None)
@@ -18,11 +18,24 @@ elements = [
             ]
 
 
+# for elementsIndex in elements:
+#     while True:
+#         if type(elementsIndex) is list:
+#             print (True, 'Is a list')
+#             break
+#         else:
+#             print (False)
+#             break
+
+# 1
 for elementsIndex in elements:
-    while True:
-        if type(elementsIndex) is list:
-            print (True, 'Is a list')
-            break
-        else:
-            print (False)
-            break
+     while True:
+        if type (elementsIndex) is list:
+            try:
+                elementsIndex.append(elementInput)
+                print (True, elementsIndex)
+                break
+            except TypeError:
+                print (False, elementsIndex)
+                break
+        break
