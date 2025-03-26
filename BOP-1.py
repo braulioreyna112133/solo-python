@@ -18,7 +18,6 @@ print (variable2, variable1 + variable3)
 global_variable = "I am a global variable"
 def function():
     print (global_variable)
-
     # modifying a global variable
 global_variable = "The global variable has been modified"
 function()

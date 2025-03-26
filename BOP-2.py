@@ -17,16 +17,6 @@ elements = [
     list1, tuple1, list2
             ]
 
-
-# for elementsIndex in elements:
-#     while True:
-#         if type(elementsIndex) is list:
-#             print (True, 'Is a list')
-#             break
-#         else:
-#             print (False)
-#             break
-
 # 1
 for elementsIndex in elements:
      while True:
@@ -36,6 +26,6 @@ for elementsIndex in elements:
                 print (True, elementsIndex)
                 break
             except TypeError:
-                print (False, elementsIndex)
+                # print (False, elementsIndex)
                 break
         break
