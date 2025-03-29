@@ -17,8 +17,8 @@ elements = [
     list1, tuple1, list2
             ]
 
-# 1
-for elementsIndex in elements:
+def checkerAppend ():
+    for elementsIndex in elements:
      while True:
         if type (elementsIndex) is list:
             try:
@@ -29,3 +29,5 @@ for elementsIndex in elements:
                 # print (False, elementsIndex)
                 break
         break
+checkerAppend ()
+
