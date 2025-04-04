@@ -30,4 +30,21 @@ print ("Employee.__module__:", Employee.__module__)
 print ("Employee.__bases__:", Employee.__bases__)
 print ("Employee.__dict__:", Employee.__dict__)
 
+# __name__
+#     Representa el nombre de la clase.
+#     En tu código: Employee.__name__ devolverá "Employee".
+
+# __module__
+#     Indica el módulo en el que se define la clase.
+#     Si la clase está en el mismo script, devolverá "__main__", pero si está en otro archivo, devolverá el nombre del módulo.
+#     En tu código: Employee.__module__ indicará dónde se definió la clase.
+
+# __bases__
+#     Es una tupla que muestra las clases base (superclases) de la clase.
+#     En tu código: Employee.__bases__ devolverá una tupla con las clases padre de Employee.
+
+# __dict__
+#     Es un diccionario que contiene los atributos y métodos de la clase.
+#     En tu código: Employee.__dict__ devolverá un diccionario con los métodos y variables de clase.
+
 # continuar con -> Built-in Class of Python datatypes
