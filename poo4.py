@@ -13,13 +13,14 @@ class pilotTest:
         
         # 5 definir variable de instancia
         self.request = request
+        request = 'aña'
 
     def looking (self):
         print(f"{self.request} es un escenario observable")
 
-    def info (self):
-        print(f"{self.request} es observada por un {self.pilot}")
+    # def info (self):
+    #     print(f"{self.request} es observada por un {self.pilot}")
 
-firulais = pilotTest("Area X")
-firulais.looking()  
-firulais.info()    
+user = pilotTest()
+user.looking()  
+# user.info()    
