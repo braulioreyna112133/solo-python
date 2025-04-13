@@ -1,0 +1,2 @@
+object = input ()
+print (object)
