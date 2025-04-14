@@ -1,22 +1,10 @@
-class objects:
-    human = 'human'
+class Cloth:
+   # Class attribute
+   price = 4000
 
-    def __init__ (self, name, age):
-        self.name = name
-        self.age = age
+   @classmethod
+   def showPrice(cls):
+      return cls.price
 
-    def show (self):
-        print (f'Type: {self.human}: {self.name}, {self.age}')
-
-    @classmethod
-    def addPatholgy (cls, pathology):
-        cls.human = pathology
-
-# llamada de clase
-user = objects ('Braulio', 21)
-user.show()
-
-# Braulio presenta un problema
-objects.addPatholgy ('blind human')
-user.show()
-print(objects.human)
+# Accessing class attribute
+print(Cloth.showPrice())  
