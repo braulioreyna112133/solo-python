@@ -24,4 +24,6 @@ class Cloth2:
     
 # creamos el objeto
 price2_class = Cloth2('$ 1,200')
+
+# llamamos al método del objeto
 print (price2_class.showPrice2())
