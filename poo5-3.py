@@ -7,5 +7,6 @@ class Cloth:
       return cls.price
 
 # Accessing class attribute
+del Cloth.price
 print(Cloth.showPrice())  
 
