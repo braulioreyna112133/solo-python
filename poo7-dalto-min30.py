@@ -1,3 +1,5 @@
+# curso de poo soy dalto - hasta el minuto 30
+
 class celular ():
     marca = 'apple'
     modelo = '16'
